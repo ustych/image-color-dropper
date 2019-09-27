@@ -1,12 +1,24 @@
 {
   "name": "image-color-dropper",
   "version": "0.1.0",
-  "private": true,
+  "description": "Getting pixel color from an image using canvas",
+  "author": {
+    "name": "Maksym",
+    "email": "ustichmaxim@gmail.com"
+  },
+  "keywords": ["image", "color", "dropper"],
+  "repository": "https://github.com/ustych/image-color-dropper",
+  "bugs": "https://github.com/ustych/image-color-dropper/issues",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build:npm": "vue-cli-service build --target lib --name ImageColorDropper src/ImageColorDropper.vue"
   },
+  "main": "dist/ImageColorDropper.umd.js",
+  "unpkg": "dist/ImageColorDropper.umd.min.js",
+  "files": ["dist"],
+  "license": "MIT",
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
