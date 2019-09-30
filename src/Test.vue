@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img id="image-to-replace" src="./assets/cake1.jpg" />
+        <img id="image-to-replace" src="https://picsum.photos/200/300" crossOrigin="" />
         <ImageColorDropper
             imageId="image-to-replace"
             @hex="showHex"
