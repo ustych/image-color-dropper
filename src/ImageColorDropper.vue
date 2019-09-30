@@ -39,8 +39,6 @@ export default {
                         canvas.width,
                         canvas.height
                     )
-
-                this.image.remove()
             })
         },
         handleMouseOnCanvas (event) {
